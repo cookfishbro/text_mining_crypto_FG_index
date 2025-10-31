@@ -6,8 +6,8 @@ import numpy as np
 import pandas as pd
 
 # 讀取資料
-emotion_index = pd.read_csv("project\\emotion_index_normalized.csv", parse_dates=['date']).rename(columns={'date': 'Date'})
-price = pd.read_csv("project\\eth-usd-max.csv", parse_dates=['date']).rename(columns={'date': 'Date'})
+emotion_index = pd.read_csv("emotion_index_normalized.csv", parse_dates=['date']).rename(columns={'date': 'Date'})
+price = pd.read_csv("eth-usd-max.csv", parse_dates=['date']).rename(columns={'date': 'Date'})
 # 將兩者統一為無時區格式
 # 統一欄名（第一欄多半是日期）
 emotion_index.rename(columns={emotion_index.columns[0]: 'Date'}, inplace=True)
