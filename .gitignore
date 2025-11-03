@@ -1,0 +1,56 @@
+# --------------------
+# 系統檔案
+# --------------------
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# --------------------
+# Python
+# --------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.env
+*.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# --------------------
+# Node.js / JS
+# --------------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+yarn.lock
+
+# --------------------
+# IDE / Editor
+# --------------------
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --------------------
+# 環境變數文件
+# --------------------
+# 忽略所有資料夾下的 .env
+**/.env
+
+# --------------------
+# 其他常見檔案
+# ------------------
+other.py
